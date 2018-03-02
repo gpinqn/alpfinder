@@ -36,25 +36,25 @@
 // Dot screen locations
 // 5,5 inchs
 // 1440 * 2960
-  int x1 = 120;
+/*  int x1 = 120;
   int y1 = 550;
   int c = 210;
   int h = 75;
   int h1 = 380;
   int penaltytime = 15;
   int penaltyrounds = 1;
-
+*/
 
 //Tablet Coby Concept Proof Template
 // 7 inchs
-/*  int x1 = 50;
+  int x1 = 50;
   int y1 = 165;
   int c = 30;
   int h = 90;
   int h1 = 67; //It is not used when it is lower than ´h´
   int penaltytime = 15;
   int penaltyrounds = 5;
-*/
+
 
 //Sony Xperia Z1 Concept Proof Template
 // 5,0 inchs
@@ -122,9 +122,9 @@ if (sensorVal == LOW) {
     validate(); // To calibrate ´c´ paramenter (Mouse Absolute shift)
     //test(); // To calibrate ´h´parameter (Mouse Relative shift) by connecting 3 dots
     //testshortdiagonal();
-    //testlongdiagonal(); //Just use if you want to check the long diagonal moves
-    //testsecuencias();
-    //dictionaryattack();
+    //testlongdiagonal(); //Just use if you want to check the long diagonal moves (for testing)
+    //testsecuencias(); //Just to try a unique sequence (for testing)
+    dictionaryattack();
     bruteforce();
    }
 }
